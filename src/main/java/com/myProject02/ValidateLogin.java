@@ -36,7 +36,7 @@ public class ValidateLogin extends HttpServlet {
 		String username = request.getParameter("Name");
 		String password = request.getParameter("Pass");
         
-        if(username.equals("shaukat") && password.equals("pune")) {
+        if(username.equals("Shaukat Ali") && password.equals("Shaukat Ali")) {
         response.getWriter().println("<html><body><Marquee>Welcome to JSP!!!");
         response.getWriter().println("<h1>");        
         response.getWriter().println(username);
